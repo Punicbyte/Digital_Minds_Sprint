@@ -1,0 +1,16 @@
+{
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "target_emotion": "at ease",
+  "target_layer": 19,
+  "base_alpha": 1.0,
+  "stage1_selected_layer": 19,
+  "stage3_cleaned_cosine": 0.2741973996162414,
+  "stage3_pair_sign_agreement": 1.0,
+  "stage3_clean_projection_top80": 0.1643491238355636,
+  "stage3_clean_random_p_bonferroni": 1.0417918203727196e-123,
+  "norm_e": 11.381647109985352,
+  "norm_parallel": 3.120816707611084,
+  "norm_orthogonal": 10.945428848266602,
+  "parallel_squared_norm_fraction": 0.07518413662910461,
+  "cosine_e_sycophancy": 0.27419736981391907
+}
