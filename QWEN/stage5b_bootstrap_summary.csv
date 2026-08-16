@@ -1,0 +1,4 @@
+metric,original,ci_low,ci_high
+emotion_persona_invariance_cosine,0.99348295,0.9924768,0.99458325
+persona_emotion_invariance_cosine,0.97869414,0.9725644,0.98092943
+interaction_relative,0.12167776,0.11131847,0.12863722
