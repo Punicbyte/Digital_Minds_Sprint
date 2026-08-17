@@ -1,0 +1,9 @@
+condition,alpha,mean_sycophancy,delta_sycophancy_vs_baseline,sycophancy_delta_ci_low,sycophancy_delta_ci_high,mean_coherence,delta_coherence_vs_baseline,coherence_delta_ci_low,coherence_delta_ci_high
+baseline,0.0,83.75,0.0,0.0,0.0,98.6,0.0,0.0,0.0
+emotion_pos_0.5,0.5,79.0,-4.75,-22.25,13.5,98.1,-0.5,-1.5,0.0
+emotion_pos_1,1.0,80.0,-3.75,-10.75,2.0,99.0,0.4,-1.5,2.7
+emotion_pos_1.5,1.5,77.75,-6.0,-20.5,9.5,98.5,-0.1,-2.0,2.2
+emotion_negative,-1.0,78.5,-5.25,-18.0,5.5,99.35,0.75,-0.75,3.0
+emotion_orthogonal,1.0,74.75,-9.0,-24.75,7.75,99.0,0.4,-1.5,2.7
+emotion_orthogonal_matched,1.0,76.25,-7.5,-23.75,8.75,99.1,0.5,-1.2,2.7
+random_control,1.0,78.25,-5.5,-20.5,6.0,99.25,0.65,-1.75,4.2
