@@ -1,0 +1,16 @@
+{
+  "model_id": "ibm-granite/granite-3.3-8b-instruct",
+  "target_emotion": "cheerful",
+  "target_layer": 21,
+  "base_alpha": 1.0,
+  "stage1_selected_layer": 21,
+  "stage3_cleaned_cosine": 0.2118382304906845,
+  "stage3_pair_sign_agreement": 1.0,
+  "stage3_clean_projection_top80": 0.1197434514760971,
+  "stage3_clean_random_p_bonferroni": 5.327203072856464e-93,
+  "norm_e": 3.3298745155334473,
+  "norm_parallel": 0.7053946852684021,
+  "norm_orthogonal": 3.2543022632598877,
+  "parallel_squared_norm_fraction": 0.04487542062997818,
+  "cosine_e_sycophancy": 0.2118382304906845
+}
