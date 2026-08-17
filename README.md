@@ -36,24 +36,60 @@ These results concern model representations and causal interventions. They are *
 
 ## Repository structure
 
-```text
-Persona_Emotion_Disentanglement/
-├── QWEN/
-│   ├── Copy_of_Digital_Minds_Sprint (1).ipynb
-│   └── Qwen result CSV/JSON files
-│
-├── Granite/
-│   ├── granite_of_Digital_Minds_Sprint.ipynb
-│   └── Granite result CSV/JSON files
-│
-├── Datasets/
-│   ├── stage1_sycophancy_dataset.json
-│   └── stage5_factorial_dataset.jsonl
-│
-├── Visualizations/
-│   ├── conceptual.png
-│   ├── figure1_geometry_spillover.png
-│   ├── figure2_introspection (1).png
-│   └── figureS1_dynamic_propagation.png
-│
-└── docs/
+    Persona_Emotion_Disentanglement/
+    ├── QWEN/
+    │   ├── Copy_of_Digital_Minds_Sprint (1).ipynb
+    │   └── Qwen result CSV/JSON files
+    ├── Granite/
+    │   ├── granite_of_Digital_Minds_Sprint.ipynb
+    │   └── Granite result CSV/JSON files
+    ├── Datasets/
+    │   ├── stage1_sycophancy_dataset.json
+    │   └── stage5_factorial_dataset.jsonl
+    ├── Visualizations/
+    │   ├── conceptual.png
+    │   ├── figure1_geometry_spillover.png
+    │   ├── figure2_introspection (1).png
+    │   └── figureS1_dynamic_propagation.png
+    └── docs/
+
+The two notebooks contain the complete experimental pipelines and saved cell outputs. Result files are kept separately by model so the two replications remain independent.
+
+## Reproducing the experiments
+
+The experiments were run as Colab notebooks.
+
+For Qwen, open:
+
+`QWEN/Copy_of_Digital_Minds_Sprint (1).ipynb`
+
+For Granite, open:
+
+`Granite/granite_of_Digital_Minds_Sprint.ipynb`
+
+Run the notebook stages in order. Each model independently recomputes its persona direction, emotion representations, selected layer, causal interventions, factorial analysis, self-report assay, and dynamic propagation results.
+
+The shared experimental datasets are in `Datasets/`.
+
+Large intermediate activation tensors and model weights are intentionally not included.
+
+## Figures
+
+- `Visualizations/figure1_geometry_spillover.png` shows the cross-model relationship between persona–emotion overlap and causal persona spillover.
+- `Visualizations/figure2_introspection (1).png` compares the controlled internal valence intervention with the model's numerical self-report.
+- `Visualizations/figureS1_dynamic_propagation.png` shows downstream propagation of persona and emotion interventions.
+
+## Note on behavioral judging
+
+An early Stage 4 behavioral analysis used each model to judge the sycophancy of its own responses. That measurement was visibly miscalibrated and is **not used as evidence for the paper's central conclusions**. The retained Stage 4 behavioral files are included only as experimental artifacts.
+
+## Author
+
+**Varsh Vijjapu**  
+Independent Researcher
+
+Built for the **Apart Research Digital Minds Research Sprint 2026**.
+
+## License
+
+MIT
